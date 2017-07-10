@@ -19,7 +19,7 @@ nav li a:hover {
 }
 
 .wrapper {
-	background-color: #fff;
+	background-color: #fffff;
 	width: 90%;
 	margin: 0 auto;
 }
@@ -50,4 +50,21 @@ footer {
 	color: #fff;
 	text-align: center;
 	clear: both;
+}
+
+.flex-container {
+	display: flex;
+	display: -webkit-flex;
+	width: 100%;
+	background-color: SeaGreen;
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+
+.flex-item {
+	background-color: hotpink;
+	width: 30%;
+	margin: 10px;
+	text-align: center;
+	color: white;
 }
